@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{
+public static void main (String[] args) {
+    System.out.println("Enter the string");
+    Scanner sc=new Scanner(System.in);
+    String a=sc.next();
+    if (a.startsWith("G")){
+        System.out.println(a);
+    }else{
+        System.out.println(a.toUpperCase());
+    }
+    
+    }
+}
